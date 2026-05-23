@@ -1,0 +1,84 @@
+aid: endo-international
+url: https://raw.githubusercontent.com/api-evangelist/endo-international/refs/heads/main/apis.yml
+name: Endo International
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Pharmaceuticals
+  - Specialty Pharma
+  - Generics
+  - Sterile Injectables
+  - Urology
+  - Orthopedics
+  - Chapter 11
+  - Opioid Settlement
+description: >-
+  Endo International was a specialty pharmaceutical company best known for
+  Xiaflex (collagenase clostridium histolyticum), branded urology and
+  orthopedic products, and a large sterile-injectables and generics business
+  (Par Pharmaceutical). Endo filed Chapter 11 in August 2022 amid mass opioid
+  litigation tied to its legacy Opana ER franchise, and emerged in April 2024
+  as the private company Endo, Inc., owned by its former creditors. On
+  July 31, 2025, Endo combined with Mallinckrodt; the merged group then
+  separated in November 2025 into two independent companies — Keenova
+  Therapeutics (specialty branded therapeutics, including the former Endo
+  Xiaflex/urology/orthopedics portfolio and Mallinckrodt specialty brands)
+  and Par Health (generics, sterile injectables, and pharmaceutical Active
+  Pharmaceutical Ingredients manufacturing). Endo no longer operates as a
+  standalone public-facing pharmaceutical company. There is no public
+  developer program, OpenAPI specification, SDK, or technology API surface
+  associated with Endo, the post-emergence Endo Inc, Keenova Therapeutics,
+  or Par Health. Any references to "API" on the successor companies' sites
+  refer to pharmaceutical Active Pharmaceutical Ingredients, not software
+  application programming interfaces.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.endo.com
+  - type: SuccessorWebsite
+    url: https://www.keenova.com
+  - type: SuccessorWebsite
+    url: https://www.parhealth.com
+  - type: MergerPartnerWebsite
+    url: https://www.mallinckrodt.com
+  - type: ChapterEleven
+    url: https://restructuring.ra.kroll.com/endo
+  - type: OpioidSettlement
+    url: https://nationalopioidsettlement.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/endo-international
+  - type: SECFilings
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001593034
+overlays:
+  - type: APIEvangelistRanking
+    url: corporate-event-only
+events:
+  - type: ChapterEleven
+    date: '2022-08-16'
+    description: >-
+      Endo International plc and certain subsidiaries filed voluntary petitions
+      for Chapter 11 in the US Bankruptcy Court for the Southern District of
+      New York, citing opioid-related litigation and balance-sheet pressure.
+  - type: Emergence
+    date: '2024-04-23'
+    description: >-
+      Endo emerged from Chapter 11 as Endo, Inc., a privately held company
+      owned by its former creditors, with reduced debt and funded opioid
+      settlement obligations.
+  - type: Merger
+    date: '2025-07-31'
+    description: >-
+      Endo combined with Mallinckrodt to form a single specialty
+      pharmaceuticals and generics group.
+  - type: Separation
+    date: '2025-11'
+    description: >-
+      The combined company separated into Keenova Therapeutics
+      (specialty branded) and Par Health (generics, sterile injectables,
+      pharmaceutical APIs).
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
