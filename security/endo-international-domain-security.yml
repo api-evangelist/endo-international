@@ -1,0 +1,16 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.endo.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 30 13:54:26 2026 GMT
+  hsts: false
+domains:
+- domain: endo.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
