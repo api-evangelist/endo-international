@@ -64,46 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Endo International was a specialty pharmaceutical company best known for **Xiaflex** (collagenase clostridium histolyticum), branded **urology** and **orthopedics** products, and a large **sterile-injectables and generics** business operated through Par Pharmaceutical. This repository is part of the [API Evangelist Network](https://github.com/api-evangelist) catalog of corporate event histories where the entity has no public software API surface.
+Endo International was a specialty pharmaceutical company best known for Xiaflex (collagenase clostridium histolyticum), branded urology and orthopedic products, and a large sterile-injectables and generics business (Par Pharmaceutical). Endo filed Chapter 11 in August 2022 amid mass opioid litigation tied to its legacy Opana ER franchise, and emerged in April 2024 as the private company Endo, Inc., owned by its former creditors. On July 31, 2025, Endo combined with Mallinckrodt; the merged group then separated in November 2025 into two independent companies — Keenova Therapeutics (specialty branded therapeutics, including the former Endo Xiaflex/urology/orthopedics portfolio and Mallinckrodt specialty brands) and Par Health (generics, sterile injectables, and pharmaceutical Active Pharmaceutical Ingredients manufacturing). Endo no longer operates as a standalone public-facing pharmaceutical company. There is no public developer program, OpenAPI specification, SDK, or technology API surface associated with Endo, the post-emergence Endo Inc, Keenova Therapeutics, or Par Health. Any references to "API" on the successor companies' sites refer to pharmaceutical Active Pharmaceutical Ingredients, not software application programming interfaces.
 
-## Status: No Public Software API
+**Areas:** Pharmaceuticals · Specialty Pharma · Generics · Sterile Injectables · Urology · Orthopedics · Chapter 11 · Opioid Settlement
 
-Endo never operated a public developer program, OpenAPI specification, SDK, CLI, or technology API of any kind. References to "API" on Endo's successor websites refer to pharmaceutical **Active Pharmaceutical Ingredients** (chemical compounds manufactured for inclusion in finished drug products), not software application programming interfaces.
+## Endo International on APIs.io
 
-This repo therefore documents the **corporate event history** — Chapter 11, emergence, merger, separation — rather than an API portfolio.
+Everything profiled for Endo International is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/endo-international/](https://apis.io/providers/endo-international/)** — or go straight to one of the APIs or properties below.
 
-## Corporate Event Timeline
+### Published properties
 
-### 2022-08-16 — Chapter 11 Filing
-Endo International plc and certain subsidiaries filed voluntary petitions for Chapter 11 protection in the US Bankruptcy Court for the Southern District of New York, citing mass opioid-related litigation tied to its legacy **Opana ER** franchise (a reformulated extended-release oxymorphone product withdrawn in 2017) and the resulting balance-sheet pressure.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### 2024-04-23 — Emergence as Endo, Inc.
-Endo emerged from Chapter 11 as **Endo, Inc.**, a privately held company owned by its former creditors. The reorganization reduced funded debt, funded opioid settlement obligations under the broader pharmaceutical national opioid framework, and left the operating portfolio (Xiaflex, urology, orthopedics, sterile injectables, generics) intact.
+#### Security (1)
 
-### 2025-07-31 — Mallinckrodt + Endo Combination
-Endo combined with **Mallinckrodt** to form a single specialty pharmaceuticals and generics group. Per the successor site: *"On July 31, 2025, Mallinckrodt and Endo joined together to better serve patients and customers with a bold plan for the future."*
+Authentication, trust centre, and vulnerability disclosure.
 
-### 2025-11 — Separation into Two Companies
-The combined company separated into two independent operating companies:
+- [Endo International Domain Security](https://apis.io/security/endo-international/endo-international-domain-security/)
 
-- **[Keenova Therapeutics](https://www.keenova.com)** — specialty branded therapeutics, covering immunology, urology, hepatology, ophthalmology, orthopedics, and critical care (the home of the former Endo Xiaflex / urology / orthopedics franchises plus Mallinckrodt specialty brands).
-- **[Par Health](https://www.parhealth.com)** — generics, sterile injectables (TruDelivery), and pharmaceutical Active Pharmaceutical Ingredients manufacturing; ~4,000 staff, ~200 marketed products, 10 manufacturing sites, distribution to 70+ countries, operator of *"the largest API manufacturing facility in the US."*
+## Where to find this API
 
-Endo no longer operates as a standalone public-facing pharmaceutical company.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Why This Repo Exists
+- [Website](https://www.endo.com)
 
-The API Evangelist Network indexes pharmaceutical issuers because they represent a category where:
+## API Evangelist rating
 
-- Litigation, reorganization, and consolidation events are the meaningful "API" of the business (regulatory disclosures, court filings, settlement trust reporting).
-- The post-Chapter 11 ownership and entity structure is frequently misunderstood in citations to "Endo" (now actually Keenova or Par Health).
-- Any future digital, supply-chain, or REST API surface (e.g., DSCSA traceability endpoints, GS1 product master APIs, patient support program portals) would be tracked here for successor entities.
+**Kin Score 3.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Files
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-- [`apis.yml`](apis.yml) — APIs.json index documenting the entity, successors, and the corporate event timeline. The `apis:` list is intentionally empty.
+**Agent readiness 0.0** — human-only
 
-## Related Repositories
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- [api-evangelist/mallinckrodt](https://github.com/api-evangelist/mallinckrodt) — merger partner
-- [api-evangelist/pharmaceuticals](https://github.com/api-evangelist/pharmaceuticals) — sector topic index
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/endo-international/](https://apis.io/providers/endo-international/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Endo International: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/endo-international/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
